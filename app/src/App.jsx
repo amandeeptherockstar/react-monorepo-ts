@@ -6,7 +6,7 @@ function App() {
     <>
       <Label>Imported from UI lib</Label>
       <Input placeholder="From the UI component library" />
-      <Button onClick={() => alert("Okay")}>Hello</Button>
+      <Button variant="success" onClick={() => alert("Okay")}>Hello</Button>
     </>
   );
 }
